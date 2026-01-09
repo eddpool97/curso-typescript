@@ -1,3 +1,9 @@
-console.log("Hello World in TypeScript");
-console.log("Hello Again");
-console.log('Hello One More Time');
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+(() => {
+    const a = 'Hello';
+    const sayHello = (message) => {
+        console.log(message);
+    };
+    sayHello(a);
+})();
