@@ -1,7 +1,8 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-(() => {
-    console.log('testing');
-    console.log('testing ...');
-    console.log('TESTING');
+(function () {
+    var isSuperman = true;
+    var isBatman = false;
+    console.log({ isSuperman: isSuperman });
+    console.log({ isBatman: isBatman });
+    isSuperman = (isBatman ? true : false);
+    console.log({ isSuperman: isSuperman });
 })();
