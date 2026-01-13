@@ -1,5 +1,18 @@
 (
     ()=>{
-        console.log('Testing compiler ...')
+        let avengers: number = 10;
+
+        const villians: number = 10;
+
+        if( avengers < villians ){
+            console.log('We have problemas');
+        }else{
+            console.log('We are safe');
+        }
+
+
+        avengers = 123;
+
+        console.log({avengers});
     }
 )();
